@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container>p{
+    margin: 0;
+}
+.container{
+    height: 50px;
+    background-color: #2c2c32;
+    margin: auto;
+}
