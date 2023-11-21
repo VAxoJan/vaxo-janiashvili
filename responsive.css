@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
 }
 
@@ -7,11 +7,32 @@ body{
         width: 992px;
         background-color: yellow;
     }    
+    .phone-responsv{
+        display: none;
+    }
+    .nav-links{
+        display: initial;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     .container{
         width: 1200px;
         background-color: green;
+    }
+    .phone-responsv{
+        display: none;
     }    
+    .nav-links{
+        display: initial;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container{
+        width: 100%;
+    }
+    .nav-links{
+        margin-left: 300px;
+    }
 }
