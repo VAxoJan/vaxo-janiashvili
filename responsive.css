@@ -13,6 +13,16 @@
     .nav-links{
         display: initial;
     }
+    .row-box{
+        margin-left: 50px;
+    }
+    .image-1{
+        width: 550px;
+        height: 400px;
+        position: absolute;
+        left: 440px;
+        bottom: 140px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -28,11 +38,14 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
     .container{
         width: 100%;
     }
     .nav-links{
-        margin-left: 300px;
+        margin-left: 400px;
+    }
+    .row-box{
+        margin-left: 200px;
     }
 }
