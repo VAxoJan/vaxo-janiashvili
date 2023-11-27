@@ -154,7 +154,8 @@ image-box-2{
 
 }
 .image-1{
-    position: absolute;
+    display: block;
+    margin: auto;
 }
 
 /*gavasworot image-1 da responsive gavuketot*/
