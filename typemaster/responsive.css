@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow';
+}
+@media screen and (max-width: 1425px) {
+    .container{
+        width: 768px;
+        height: 1200px;
+        border: 1px solid black;
+        margin: 55px auto;
+    }
+    .bit-1{
+        display: none;
+    }
+    .image-1>img{
+        width: 400px;
+    }
+    .box-2{
+        width: 768px;
+    }
+}

@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow';
+}
+.container{
+    width: 1110px;
+    height: 1810px;
+    margin: 55px auto;
+}
+.frst-box{
+    display: flex;
+    justify-content: space-between;
+}
+.frst-box>button{
+    border: none;
+    width: 175px;
+    height: 58px;
+    background-color: #162542;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.bit-1{
+    width: 127.5px;
+    height: 200px;
+    background-color: #E8EFF2;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left: 1135px;
+    margin-top: -480px;
+    display: flex;
+}.box-2{
+    width: 1110px;
+    height: 563px;
+    display: flex;
+    justify-content: space-between;
+}
+.head-1{
+    width: 445px;
+    height: 312px;
+    margin-top: 143px;
+}
+.keyb{
+    width: 445px;
+    height: 112px;
+    color: #162542;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+}
+.par-1{
+    padding-top: 24px;
+    font-size: 18px;
+    color: #7B8BAD;
+    font-weight: 500;
+    line-height: 26px;
+    width: 445px;
+}
+.rele{
+    display: flex;
+    gap: 40px;
+}
+.button-1{
+    width: 175px;
+    height: 58px;
+    border-radius: 8px;
+    background-color: #FF9B62;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+    border: none;
+    transition: 0.1s;
+}
+.button-1:hover{
+    background-color: #162542;
+}
+.release{
+    margin-top: 56px;
+    color: #7B8BAD;
+    font-size: 16px;
+    font-weight: 700;
+}
+.image-1{
+    padding-top: 83px;
+}
+.box-4{
+    width: 1110px;
+    height: 480px;
+    margin-top: 310px;
+    display: flex;
+}
+.image-2{
+    margin-left: 31px;
+}
+.small-box{
+    width: 255px;
+    height: 265px;
+    margin-top: 112px;
+    margin-left: 122px;
+}
+.small-box>h1{
+    width: 255px;
+    height: 108px;
+    font-size: 32px;
+    line-height: 36px;
+    color: #162542;
+    font-weight: 900;
+}
+.small-box>p{
+    width: 255px;
+    height: 130px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    font-weight: 500;
+    padding-top: 27px;
+}
+.bit-2{
+    width: 127.5px;
+    height: 200px;
+    background-color: #E8EFF2;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: -158px;
+    margin-top: -200px;
+    display: flex;
+}
+.box-5{
+    width: 1110px;
+    height: 323px;
+    margin-top: 168px;
+    display: flex;
+    gap: 30px;
+}
+.card-1{
+    width: 255px;
+    height: 323px;
+}
+.card-1>h1{
+    color: #162542;
+    font-weight: 900;
+    padding-top: 48px;
+    font-size: 24px;
+    line-height: 28px;
+}
+.card-1>p{
+    width: 255px;
+    height: 130px;
+    color: #7B8BAD;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 16px;
+    padding-top: 23px;
+}
+.card-2{
+    width: 255px;
+    height: 323px;
+}
+.card-2>h1{
+    color: #162542;
+    font-weight: 900;
+    padding-top: 48px;
+    font-size: 24px;
+    line-height: 28px;
+}
+.card-2>p{
+    width: 255px;
+    height: 130px;
+    color: #7B8BAD;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 16px;
+    padding-top: 23px;
+}
+.card-3>p{
+    width: 255px;
+    height: 130px;
+    color: #7B8BAD;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 16px;
+    padding-top: 23px;
+}
+.card-3{
+    width: 255px;
+    height: 323px;
+}
+.card-3>h1{
+    color: #162542;
+    font-weight: 900;
+    padding-top: 48px;
+    font-size: 24px;
+    line-height: 28px;
+}
+.card-3>p{
+    width: 255px;
+    height: 130px;
+    color: #7B8BAD;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 16px;
+    padding-top: 23px;
+}
+.card-4{
+    width: 255px;
+    height: 323px;
+}
+.card-4>h1{
+    color: #162542;
+    font-weight: 900;
+    padding-top: 48px;
+    font-size: 24px;
+    line-height: 28px;
+}
+.card-4>p{
+    width: 255px;
+    height: 130px;
+    color: #7B8BAD;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 16px;
+    padding-top: 23px;
+}
+.last-p{
+    width: 272px;
+    height: 26px;
+    color: #7B8BAD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 128px auto;
+}
