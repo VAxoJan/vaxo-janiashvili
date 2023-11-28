@@ -123,7 +123,11 @@
         height: 48px;
     }
     .box-4{
+        width: 400px;
         margin-top: 450px;
+    }
+    .box-5{
+        width: 400px;
     }
     .image-1>img{
         width: 372px;
