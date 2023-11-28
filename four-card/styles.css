@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.box-1{
+    width: 540px;
+    height: 168px;
+    border: 1px solid black;
+    margin: 80px auto;
+}
