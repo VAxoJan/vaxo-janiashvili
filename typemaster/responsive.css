@@ -102,3 +102,105 @@
         margin-top: 400px;
     }
 }
+@media screen and (max-width: 777px) {
+    .container{
+        height: 3000px;
+    }
+    .frst-box{
+        width: 365px;
+        padding-inline: 24px;
+    }
+    .frst-box>button{
+        width: 151px;
+        height: 48px;
+    }
+    .box-2{
+        margin-top: 0;
+        padding-inline: 24px;
+    }
+    .button-1{
+        width: 150px;
+        height: 48px;
+    }
+    .box-4{
+        margin-top: 450px;
+    }
+    .image-1>img{
+        width: 372px;
+        height: 331px;
+        margin-top: 350px;
+        margin-left: -339px;
+    }
+    .imeij{
+        width: 129px;
+        height: 193px;
+    }
+    .image-2{
+        width: 270px;
+        height: 193px;
+        margin-left: 0px;
+    }
+    .small-box{
+        margin-top: 270px;
+        margin-left: -300px;
+    }
+    .small-box>h1{
+        width: 255px;
+        height: 108px;
+    }
+    .small-box>p{
+        width: 327px;
+        height: 104px;
+        font-size: 16px;
+        margin-top: 0px;
+        margin-left: -40px;
+    }
+    .box-5{
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    .last-p{
+        margin-top: 1400px;
+        margin-left: 70px;
+    }
+    .card-2{
+        margin-top: 400px;
+        margin-left: -280px;
+    }
+    .card-3{
+        margin-left: -288px;
+        margin-top: 850px;
+    }
+    .card-4{
+        margin-top: 1300px;
+        margin-left: -288px;
+    }
+    .card-1>img{
+        margin-left: 20px;
+    }
+    .card-1>p{
+        width: 327px;
+        margin-left: -60px;
+    }
+    .card-2>p{
+        width: 327px;
+        margin-left: -60px;
+    }
+    .card-2>h1{
+        margin-left: -30px;
+    }
+    .card-3>p{
+        width: 327px;
+        margin-left: -60px;
+    }
+    .card-3>h1{
+        margin-left: -30px;
+    }
+    .card-4>p{
+        width: 327px;
+        margin-left: -61px;
+    }
+    .card-4>h1{
+        margin-left: -30px;
+    }
+}
