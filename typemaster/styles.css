@@ -6,7 +6,7 @@
 }
 .container{
     width: 1110px;
-    height: 1810px;
+    height: 2050px;
     margin: 55px auto;
 }
 .frst-box{
@@ -88,6 +88,8 @@
 }
 .image-1{
     padding-top: 83px;
+     width: 540px;
+     height: 480px;
 }
 .box-4{
     width: 1110px;

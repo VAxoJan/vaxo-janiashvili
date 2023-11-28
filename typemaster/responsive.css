@@ -6,18 +6,99 @@
 }
 @media screen and (max-width: 1425px) {
     .container{
-        width: 768px;
-        height: 1200px;
-        border: 1px solid black;
-        margin: 55px auto;
+        width: 689px;
+        height: 1700px;
+        margin: 40px auto;
     }
     .bit-1{
         display: none;
     }
-    .image-1>img{
-        width: 400px;
-    }
     .box-2{
         width: 768px;
+    }
+    .frst-box{
+        width: 689px;
+    }
+    .frst-box>button{
+        background-color: #E8EFF2;
+        color: #162542;
+    }
+    .box-2{
+        width: 689px;
+        height: 425px;
+        margin-top: 62px;
+    }
+    .image-1>img{
+        margin-top: -100px;
+        width: 328px;
+        height: 490px;
+        border-top-right-radius: 1px;
+        border-top-right-radius: 1px;
+        border-bottom-right-radius: 8px;
+        border-top-left-radius: 8px;
+        margin-left: 60px;
+    }
+    .bit-2{
+        display: none;
+    }
+    .keyb{
+        width: 339px;
+        height: 96px;
+        font-size: 48px;
+        margin-top: -62px;
+    }
+    .par-1{
+        font-size: 16px;
+        width: 339px;
+    }
+    .button-1{
+        width: 175px;
+        height: 58px;
+        margin-top: 39px;
+    }
+    .rele>p{
+        font-size: 15px;
+    }
+    .box-4{
+        width: 768px;
+        margin-top: 0;
+    }
+    .imeij{
+        width: 214px;
+        height: 320px;
+        margin-left: -22px;
+    }
+    .image-2{
+        width: 445px;
+        height: 320px;
+        margin-left: -75px;
+    }
+    .small-box{
+        margin-top: 350px;
+        margin-left: -560px;
+    }
+    .small-box>h1{
+        font-size: 32px;
+    }
+    .small-box>p{
+        width: 398px;
+        height: 78px;
+        font-size: 16px;
+        line-height: 26px;
+        margin-left: 250px;
+        margin-top: -130px;
+    }
+    .box-5{
+        margin-top: 0;
+    }
+    .card-3{
+        margin-top: 340px;
+        margin-left: -570px;
+    }
+    .card-4{
+        margin-top: 340px;
+    }
+    .last-p{
+        margin-top: 400px;
     }
 }
