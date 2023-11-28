@@ -3,9 +3,181 @@
     box-sizing: border-box;
     font-family: 'Poppins';
 }
+body{
+    background-color: #f1f1f1;
+}
 .box-1{
     width: 540px;
     height: 168px;
-    border: 1px solid black;
     margin: 80px auto;
+}
+.par-1{
+    text-align: center;
+    color: #4D4F62;
+    font-weight: 275;
+    font-size: 36px;
+    letter-spacing: 0.25px;
+}
+.tech{
+    color: #2f2f3a;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    margin-top: -10px;
+}
+.par-2{
+    width: 540px;
+    height: 50px;
+    color: #4D4F62;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    margin-top: 10px;
+}
+.box-2{
+    width: 1110px;
+    height: 530px;
+    margin: 0 auto;
+}
+
+.card-1{
+    width: 350px;
+    height: 250px;
+    margin-left: 375px;
+    background-color: #FFFFFF;
+}
+.card-1>h1{
+    padding-top: 32px;
+    padding-left: 32px;
+    color: #4D4F62;
+    font-weight: 600;
+    font-size: 20px;
+}
+.card-1>p{
+    width: 286px;
+    height: 46px;
+    color: #4D4F62;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    opacity: 50%;
+    padding-left: 32px;
+}
+.card-1>img{
+    width: 64px;
+    height: 64px;
+    margin-left: 254px;
+    margin-top: 40px;
+}
+.card-2{
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 250px;
+    margin-left: 375px;
+    margin-top: 28px;
+}
+.card-2>h1{
+    padding-top: 32px;
+    padding-left: 32px;
+    color: #4D4F62;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-2>p{
+    padding-left: 32px;
+    width: 286px;
+    height: 46px;
+    color: #4D4F62;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    font-weight: 400;
+    opacity: 50%;
+}
+.card-2>img{
+    margin-left: 254px;
+    margin-top: 40px;
+}
+.card-3{
+    width: 350px;
+    background-color: #FFFFFF;
+    height: 250px;
+    margin-top: -380px;
+}
+.card-3>h1{
+    font-size: 20px;
+    color: #4D4F62;
+    font-weight: 600;
+    padding-left: 32px;
+    padding-top: 32px;
+}
+.card-3>p{
+    width: 286px;
+    height: 46px;
+    color: #4D4F62;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    opacity: 50%;
+    padding-left: 32px;
+}
+.card-3>img{
+    width: 64px;
+    height: 64px;
+    margin-left: 254px;
+    margin-top: 40px;
+}
+.card-4{
+    width: 350px;
+    height: 250px;
+    background-color: #FFFFFF;
+    margin-left: 758px;
+    margin-top: -250px;
+}
+.card-4>h1{
+    padding-top: 32px;
+    padding-left: 32px;
+    color: #4D4F62;
+    font-weight: 600;
+    font-size: 20px;
+}
+.card-4>p{
+    padding-left: 32px;
+    width: 286px;
+    height: 46px;
+    font-size: 13px;
+    color: #4D4F62;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    opacity: 50%;
+}
+.card-4>img{
+    margin-top: 40px;
+    margin-left: 254px;
+}
+.bit-1{
+    width: 350px;
+    height: 4px;
+    background-color: #EA5454;
+}
+.bit-2{
+    background-color: #FCAE4A;
+    width: 350px;
+    height: 4px;
+}
+.bit-3{
+    width: 350px;
+    height: 4px;
+    background-color: #44D3D2;
+}
+.bit-4{
+    width: 350px;
+    height: 4px;
+    background-color: #549EF2;
 }
