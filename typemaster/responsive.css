@@ -90,6 +90,7 @@
     }
     .box-5{
         margin-top: 0;
+        width: 0;
     }
     .card-3{
         margin-top: 340px;
@@ -104,6 +105,7 @@
 }
 @media screen and (max-width: 777px) {
     .container{
+        width: 400px;
         height: 3000px;
     }
     .frst-box{
@@ -115,7 +117,7 @@
         height: 48px;
     }
     .box-2{
-        margin-top: 0;
+        width: 300px;
         padding-inline: 24px;
     }
     .button-1{
@@ -127,7 +129,7 @@
         margin-top: 450px;
     }
     .box-5{
-        width: 400px;
+        width: 0;
     }
     .image-1>img{
         width: 372px;
