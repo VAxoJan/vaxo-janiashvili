@@ -45,3 +45,4 @@ var ladosAge = giosAge - sabasAge;
 console.log(ladosAge);
 
 console.log(Boolean(ladosAge > 15));
+
