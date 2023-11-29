@@ -1,7 +1,7 @@
 const cars = [
     {
         model: 'BMW',
-        brend: 'F30',
+        brand: 'F30',
         year: '2014',
         engine: ['2.0T', '3.0T', '4.0T']
     }
@@ -14,7 +14,7 @@ for (i = 0; i < cars.length; i++){
 
 const car = {
     model: 'Subaru',
-    brend: 'forester',
+    brand: 'forester',
     engine: ['2.0', '2.0T', '2.5', '2.5sti-best subaru engine']
 };
 console.log(car.engine[3])
@@ -45,4 +45,3 @@ var ladosAge = giosAge - sabasAge;
 console.log(ladosAge);
 
 console.log(Boolean(ladosAge > 15));
-
