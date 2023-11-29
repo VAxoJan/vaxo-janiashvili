@@ -7,7 +7,7 @@ const cars = [
     }
 ];
 
-for (i = 0; i < cars.length; i++){
+for (let i = 0; i < cars.length; i++){
     console.log(cars[i].engine[2])
 };
 
@@ -27,7 +27,7 @@ const fastCar = [
         engine: ['2JZ-GTE', 'maxsPower 2033Hp']
     }
 ];
-for (i = 0; i < fastCar.length; i++){
+for (let i = 0; i < fastCar.length; i++){
     console.log(fastCar[i].engine[0])
     console.log(fastCar[i].engine[1])
 };
