@@ -55,8 +55,74 @@
 .btn-1{
     width: 167px;
     height: 56px;
-    background-color: #F02AA6;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);    ;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     margin-top: 24px;
+    color: white;
+    font-size: 16px;
+}
+.box-4{
+    width: 327px;
+    height: 301px;
+    margin-top: 70px;
+}
+.box-4>img{
+    width: 253px;
+    height: 253px;
+    margin-left: 45px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+.members{
+    width: 105px;
+    height: 100px;
+    box-shadow: 0px 34px 54px 0px #06168D29;
+    background: #FFFFFF;
+    margin-top: -260px;
+    margin-left: 221px;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+.small-1{
+    color: #83869A;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+.small-2{
+    color: #13183F;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 10px;
+}
+.course{
+    width: 155px;
+    height: 100px;
+    box-shadow: 0px 34px 54px 0px #06168D29;
+    background: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+.small-3{
+    text-align: center;
+    color: #83869A;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 16px;
+}
+.small-4{
+    text-align: center;
+    color: #13183F;
+    font-size: 32px;
+    font-weight: 800;
+}
+.box-5{
+    width: 375px;
+    height: 1695px;
+    margin-top: 66px;
+    border: 1px solid red;
 }
