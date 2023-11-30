@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px) {
     .container{
         width: 689px;
+        height: 2500px;
         border: 1px solid black;
     }
     .box-2>h1{

@@ -6,7 +6,7 @@
 
 .container{
     width: 343px;
-    height: 700px;
+    height: 2900px;
     border: 1px solid black;
     margin: 16px auto;
 }
@@ -125,4 +125,204 @@
     height: 1695px;
     margin-top: 66px;
     border: 1px solid red;
+}
+.card-1{
+    border-radius: 10px;
+    width: 375px;
+    height: 120px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+.check{
+    width: 286px;
+    height: 64px;
+    line-height: 32px;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 15px;
+}
+.pop{
+    width: 256px;
+    height: 64px;
+    line-height: 32px;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    margin-top: -13px;
+}
+.card-2{
+    margin-top: 16px;
+    box-shadow: 0px 25px 50px 0px #06168D0B;
+    background-color: #FFFFFF;
+    width: 343px;
+    height: 283px;
+    border: 1px solid black;
+    padding-left: 28px;
+}
+.card-2>h1{
+    width: 101px;
+    color: #13183F;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 24px;
+}
+.card-2>p{
+    width: 286px;
+    color: #83869A;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.card-2>h2{
+    color: #F74780;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.card-3{
+    margin-top: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 25px 50px 0px #06168D0B;
+    width: 343px;
+    height: 283px;
+    border: 1px solid black;
+    padding-left: 28px;
+}
+.card-3>h1{
+    width: 101px;
+    color: #13183F;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 24px;
+}
+.card-3>p{
+    width: 286px;
+    color: #83869A;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.card-3>h2{
+    color: #F74780;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.card-4{
+    margin-top: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 25px 50px 0px #06168D0B;
+    width: 343px;
+    height: 283px;
+    border: 1px solid black;
+    padding-left: 28px;
+}
+.card-4>h1{
+    width: 101px;
+    color: #13183F;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 24px;
+}
+.card-4>p{
+    width: 286px;
+    color: #83869A;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.card-4>h2{
+    color: #F74780;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.card-5{
+    margin-top: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 25px 50px 0px #06168D0B;
+    width: 343px;
+    height: 283px;
+    border: 1px solid black;
+    padding-left: 28px;
+}
+.card-5>h1{
+    width: 101px;
+    color: #13183F;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 24px;
+}
+.card-5>p{
+    width: 286px;
+    color: #83869A;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.card-5>h2{
+    color: #F74780;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.card-6{
+    margin-top: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 25px 50px 0px #06168D0B;
+    width: 343px;
+    height: 283px;
+    border: 1px solid black;
+    padding-left: 28px;
+}
+.card-6>h1{
+    width: 101px;
+    color: #13183F;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 24px;
+}
+.card-6>p{
+    width: 286px;
+    color: #83869A;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.card-6>h2{
+    color: #F74780;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.last-div{
+    width: 343px;
+    height: 120px;
+    background-color: #13183F;
+    display: flex;
+    padding-top: 43px;
+    justify-content: space-between;
+}
+.last-div>p{
+    width: 89px;
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 800;
+}
+.last-div>button{
+    width: 140px;
+    height: 46px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 40px;
 }
