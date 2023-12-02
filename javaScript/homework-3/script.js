@@ -5,4 +5,8 @@ const products = [
     { name: "Watch", price: 199 },
     { name: "Headphones", price: 99 },
 ];
-let number = [];
+const y = products.filter(number => {
+    return number > 240;
+});
+
+console.log(y);

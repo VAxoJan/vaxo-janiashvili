@@ -15,3 +15,7 @@ const products = [
         price: 50
     }
 ];
+
+for (let i = 0; i < products.length; i++) {
+    console.log(products[i].price)
+};
