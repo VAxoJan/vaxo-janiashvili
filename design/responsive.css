@@ -3,17 +3,66 @@
         margin: 0;
     }
     .container{
+        margin: 24px auto;
         width: 689px;
-        height: 2500px;
+        height: 1000px;
         border: 1px solid black;
-    }
-    .box-2>h1{
-        font-size: 10px;
-        margin-left: 30px;
     }
     .last-div{
         width: 100%;
         height: 120px;
+        margin-top: -490px;
+        padding: 40px 20px 40px 20px;
+    }
+    .box-2{
+        width: 398px;
+        margin-top: 38px;
+        height: 101px;
+    }
+    .box-2>p{
+        width: 328px;
+        line-height: 50.4px;
+        font-weight: 800;
+        font-size: 40px;
+        color: #13183F;
+    }
+    .box-3{
+        width: 398px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .box-4>img{
+        width: 256.54px;
+        height: 382.53px;
+        margin-top: -366px;
+        margin-left: 418px;
+    }
+    .members{
+        margin-top: -373px;
+        margin-left: 595px;
+    }
+    .small-1{
+        padding-top: 16px;
+    }
+    .course{
+        margin-top: 225px;
+        margin-left: 400px;
+    }
+    .box-5{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 310px;
+        margin-top: -190px;
+        height: 1500px;
+        
+    }
+    .card-1{
+        width: 339px;
+        height: 259px;
+        padding-top: 56px;
+    }
+    .card-5,.card-6{
+        margin-top: -420px;
     }
 }
 
