@@ -6,9 +6,10 @@ const products = [
     { name: "Headphones", price: 99 },
 ];
 
-const flt = products.filter(excess, index, arr) => {
-    console.log(excess, index, arr)
-    return excess > 240;    
-};
+let price = products.map(fun => fun.price);
 
-console.log(flt);
+const result = products.filter(number => {
+    return number < 220;
+});
+
+console.log(result);

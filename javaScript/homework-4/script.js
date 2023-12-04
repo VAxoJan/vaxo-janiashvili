@@ -1,7 +1,5 @@
 const numbers = [33, 10, 99, 95];
 
-const total = numbers.filter(number => {
-    return number * 3;
-});
 
-console.log(total);
+const price = numbers.map(number => number.number);
+console.log(number);
