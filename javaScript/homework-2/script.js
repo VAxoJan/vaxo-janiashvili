@@ -16,6 +16,7 @@ const products = [
     }
 ];
 
-for (let i = 0; i < products.length; i++) {
-    console.log(products[i].price)
-};
+let productPrice = products.map(prdc => prdc.price);
+const prices = productPrice.reduce((sum, price) => sum + price, 0);
+
+console.log(prices);

@@ -5,8 +5,10 @@ const products = [
     { name: "Watch", price: 199 },
     { name: "Headphones", price: 99 },
 ];
-const y = products.filter(number => {
-    return number > 240;
-});
 
-console.log(y);
+const flt = products.filter(excess, index, arr) => {
+    console.log(excess, index, arr)
+    return excess > 240;    
+};
+
+console.log(flt);
