@@ -94,11 +94,86 @@ header>p{
     width: 327px;
     height: 48px;
     color: #2C2830;
-    font-family: DM Serif Display;
+    font-family: "DM Serif Display";
     font-size: 48px;
     font-weight: 400;
     line-height: 48px;
     letter-spacing: -0.6666666865348816px;
     text-align: center;
     padding-top: 40px;
+}
+.card-2>img{
+    display: flex;
+    margin: 0 auto;
+}
+.card-2>p{
+    color: #2C2830;
+    font-family: "DM Serif Display";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -0.3888888955116272px;
+    text-align: center;
+    padding-top: 32px;
+}
+.card-2>small{
+    color: #837D88;
+    font-family: "Karla";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 16px;
+}
+.forms{
+    font-family: "Karla";
+    text-align: center;
+    font-size: 14px;
+    color: #837D88;
+}
+.card-3>img{
+    display: flex;
+    margin: 0 auto;
+}
+.card-3>p{
+    color: #2C2830;
+    font-family: "DM Serif Display";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -0.3888888955116272px;
+    text-align: center;
+    padding-top: 32px;
+}
+.card-3>small{
+    color: #837D88;
+    font-family: "Karla";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 16px;
+}
+.card-4>img{
+    display: flex;
+    margin: 0 auto;
+}
+.card-4>p{
+    color: #2C2830;
+    font-family: "DM Serif Display";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -0.3888888955116272px;
+    text-align: center;
+    padding-top: 32px;
+}
+.card-4>small{
+    color: #837D88;
+    font-family: "Karla";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 16px;
 }
