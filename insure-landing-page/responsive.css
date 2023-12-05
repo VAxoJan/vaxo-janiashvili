@@ -2,3 +2,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+@media screen and (min-width: 1110px) {
+    .container{
+        width: 1110px;
+    }
+}

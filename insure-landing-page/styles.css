@@ -6,7 +6,7 @@
 
 .container{
     width: 327px;
-    height: 2600px;
+    height: 3708px;
     border: 1px solid black;
     margin: 31px auto;
 }
@@ -176,4 +176,117 @@ header>p{
     line-height: 26px;
     text-align: center;
     padding-top: 16px;
+}
+.box-4{
+    width: 327px;
+    height: 344px;
+    background-color: #2D2641;
+    margin-top: 140px;
+}
+.box-4>p{
+    padding-top: 80px;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+.box-4>button{
+    margin-top: 40px;
+    width: 160px;
+    height: 40px;
+    background-color: #2D2641; 
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+    border: 1px solid white;
+    display: flex;
+    margin: 30px auto;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 7px;
+     cursor: pointer;
+}
+.box-5{
+    width: 327px;
+    height: 1025px;
+    border: 1px solid yellow;
+    margin-top: 140px;
+}
+.last-1{
+    display: block;
+    text-align: center;
+}
+.last-1>p{
+    font-size: 25px;
+    color: #2C2830;
+}
+.last-1>img{
+    padding-top: 32px;
+}
+.last-2{
+    text-align: center;
+    margin-top: 81px;
+}
+.last-2>p{
+    color: #2D2641;
+    font-family: "Karla";
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.last-2>h3{
+    color: #837D88;
+    font-size: 13px;
+    font-weight: 700;
+}
+.last-3{
+    text-align: center;
+    margin-top: 40px;
+}
+.last-3>p{
+    color: #2D2641;
+    font-family: "Karla";
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.last-3>h3{
+    color: #837D88;
+    font-size: 13px;
+    font-weight: 700;
+}
+.last-4{
+    text-align: center;
+    margin-top: 81px;
+}
+.last-4>p{
+    color: #2D2641;
+    font-family: "Karla";
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.last-4>h3{
+    color: #837D88;
+    font-size: 13px;
+    font-weight: 700;
+}
+.last-5{
+    text-align: center;
+    margin-top: 81px;
+}
+.last-5>p{
+    color: #2D2641;
+    font-family: "Karla";
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 13px;
+}
+.last-5>h3{
+    color: #837D88;
+    font-size: 13px;
+    font-weight: 700;
 }
