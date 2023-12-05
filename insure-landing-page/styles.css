@@ -19,6 +19,9 @@ header>p{
     width: 112px;
     font-size: 25px;
 }
+header>img{
+    display: initial;
+}
 .box-1>img{
     width: 326px;
     margin-top: 31px;

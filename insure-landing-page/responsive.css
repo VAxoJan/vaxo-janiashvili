@@ -6,5 +6,46 @@
 @media screen and (min-width: 1110px) {
     .container{
         width: 1110px;
+        margin-top: 21px;
+    }
+    header>img{
+        display: none;
+    }
+    header{
+        border: 1px solid red;
+        display: flex;
+        justify-content: initial;
+    }
+    nav>a{
+        text-decoration: none;
+        color: #837D88;
+        font-size: 13px;
+        font-weight: 700;
+        font-family: "karla";
+        padding-left: 25px;
+        transition: 0.1s;
+    }
+    nav>a:hover{
+        color: #2C2830;
+    }
+    nav{
+        display: flex;
+        margin-left: 478px;
+        padding-top: 10px;
+    }
+    .plan{
+        width: 146px;
+        height: 40px;
+        margin-left: 57px;
+        margin-top: -10px;
+        background-color: #2C2830;
+        font-size: 13px;
+        font-family: "karla";
+        font-weight: 700;
+        text-align: center;
+        color: white;
+        padding-top: 10px;
+        border: none;
     }
 }
+
