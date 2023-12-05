@@ -47,5 +47,65 @@
         padding-top: 10px;
         border: none;
     }
+    .box-1>img{
+        width: 440px;
+        height: 550px;
+        margin-left: 500px;
+        margin-top: 97px;
+        position: relative;
+        z-index: 2;
+    }
+    .box-2{
+        position: relative;
+        width: 1110px;
+        height: 600px;
+        margin-top: -644px;
+    }
+    .par-1{
+        margin-left: 40px;
+        font-size: 52px;
+        width: 363px;
+        text-align: initial;
+    }
+    .par-2{
+        width: 459px;
+    }
+    .box-3{
+        margin-top: 250px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .box-2>div{
+        margin: 0;
+        margin-top: 24px;
+        background-color: white;
+        color: #2C2830;
+    }
+    .bit-2{
+        width: 405px;
+        height: 600px;
+        background-color: #2D2641;
+        position: absolute;
+        top: 73px;
+    }
+    .bit-3{
+        width: 405px;
+        height: 600px;
+        background-color: #2D2641;
+        position: absolute;
+        top: 73px;
+        right: 0;
+    }
+    .card-1{
+        margin-top: -121px;
+        padding-top: 0;
+    }
+    .card-2{
+        margin-top: 15px;
+        margin-left: -328px;
+    }
+    .card-3{
+        margin-left: 30px;
+    }
 }
 

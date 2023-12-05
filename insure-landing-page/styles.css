@@ -293,3 +293,6 @@ header>img{
     font-size: 13px;
     font-weight: 700;
 }
+nav{
+    display: none;
+}
