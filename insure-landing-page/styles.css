@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display';
+}
+
+.container{
+    width: 327px;
+    height: 2600px;
+    border: 1px solid black;
+    margin: 31px auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header>p{
+    color: #2C2830;
+    width: 112px;
+    font-size: 25px;
+}
+.box-1>img{
+    width: 326px;
+    margin-top: 31px;
+}
+.box-2{
+    margin-top: -6px;
+    width: 327px;
+    height: 500px;
+    background-color: #2D2641;
+}
+.par-1{
+    color: #FFFFFF;
+    padding-top: 93px;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.67px;
+    text-align: center;
+    font-weight: 400px;
+}
+.par-2{
+    width: 304px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 16px;
+}
+.box-2>div{
+    padding-top: 9px;
+    text-align: center;
+    width: 146px;
+    height: 40px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 700;
+    border: none;
+    margin: 32px auto;
+    cursor: pointer;
+    background-color: #2D2641;
+    border: 1px solid white;
+}
+.box-3{
+    width: 327px;
+    height: 1100px;
+    border: 1px solid red;
+}
+.card-1{
+    margin-top: 140px;
+    border: 1px solid green;
+    width: 327px;
+    height: 89px;
+}
+.card-2{
+    margin-top: 80px;
+    border: 1px solid green;
+    width: 327px;
+    height: 250px;
+}
+.card-3{
+    border: 1px solid green;
+    width: 327px;
+    margin-top: 15px;
+    height: 250px;
+}
+.card-4{
+    margin-top: 15px;
+    border: 1px solid green;
+    width: 327px;
+    height: 250px;
+}
+.card-1>p{
+    width: 327px;
+    height: 48px;
+    color: #2C2830;
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.6666666865348816px;
+    text-align: center;
+    padding-top: 40px;
+}
