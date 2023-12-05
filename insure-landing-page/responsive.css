@@ -7,12 +7,12 @@
     .container{
         width: 1110px;
         margin-top: 21px;
+        height: 2000px;
     }
     header>img{
         display: none;
     }
     header{
-        border: 1px solid red;
         display: flex;
         justify-content: initial;
     }
@@ -62,18 +62,19 @@
         margin-top: -644px;
     }
     .par-1{
-        margin-left: 40px;
         font-size: 52px;
         width: 363px;
         text-align: initial;
     }
     .par-2{
-        width: 459px;
+        width: 449px;
+        margin-left: -12px;
     }
     .box-3{
         margin-top: 250px;
         display: grid;
         grid-template-columns: auto auto auto;
+        height: 267px;
     }
     .box-2>div{
         margin: 0;
@@ -82,18 +83,18 @@
         color: #2C2830;
     }
     .bit-2{
-        width: 405px;
+        width: 905px;
         height: 600px;
         background-color: #2D2641;
         position: absolute;
-        top: 73px;
+        top: 70px;
     }
     .bit-3{
-        width: 405px;
+        width: 905px;
         height: 600px;
         background-color: #2D2641;
         position: absolute;
-        top: 73px;
+        top: 70px;
         right: 0;
     }
     .card-1{
@@ -102,10 +103,46 @@
     }
     .card-2{
         margin-top: 15px;
-        margin-left: -328px;
+        margin-left: -716px;
     }
     .card-3{
         margin-left: 30px;
+        margin-left: -1098px;
+    }
+    .card-4{
+        margin-top: -250px;
+        margin-left: 770px;
+    }
+    .box-4{
+        width: 1110px;
+        height: 250px;
+        display: flex;
+    }
+    .box-4>p{
+        width: 436px;
+    }
+    .box-4>button{
+        margin: 101px;
+        margin-left: 430px;
+        background-color: white;
+        color: #2D2641;
+    }
+    .box-5{
+        display: flex;
+        height: 250px;
+        width: 1000px;
+        justify-content: space-between;
+    }
+    .last-1{
+        display: flex;
+    }
+    .last-1>img{
+        display: none;
+    }
+    .last-2{
+        margin-left: -278px;
+    }
+    .last-3{
+        margin-top: 80px;
     }
 }
-

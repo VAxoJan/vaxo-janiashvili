@@ -7,7 +7,6 @@
 .container{
     width: 327px;
     height: 3708px;
-    border: 1px solid black;
     margin: 31px auto;
 }
 header{
@@ -67,29 +66,24 @@ header>img{
 .box-3{
     width: 327px;
     height: 1100px;
-    border: 1px solid red;
 }
 .card-1{
     margin-top: 140px;
-    border: 1px solid green;
     width: 327px;
     height: 89px;
 }
 .card-2{
     margin-top: 80px;
-    border: 1px solid green;
     width: 327px;
     height: 250px;
 }
 .card-3{
-    border: 1px solid green;
     width: 327px;
     margin-top: 15px;
     height: 250px;
 }
 .card-4{
     margin-top: 15px;
-    border: 1px solid green;
     width: 327px;
     height: 250px;
 }
@@ -204,7 +198,6 @@ header>img{
     text-align: center;
     font-weight: 700;
     border: none;
-    border: 1px solid white;
     display: flex;
     margin: 30px auto;
     text-align: center;
@@ -215,7 +208,6 @@ header>img{
 .box-5{
     width: 327px;
     height: 1025px;
-    border: 1px solid yellow;
     margin-top: 140px;
 }
 .last-1{
