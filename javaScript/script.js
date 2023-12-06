@@ -1,8 +1,19 @@
-const box = document.querySelector('.box-1');
+/*
+window.onload = () => {
 
-console.log(box);
+    const feri = document.querySelector('h1');
 
-for (const el of box) {
-    el.style.backgroundColor = 'yellow';
+    console.log(feri.style.backgroundColor = 'red', feri.style.color = 'white');
+
 }
 
+*/
+
+
+window.onload = () => {
+    const batn = document.querySelector('button');
+
+    batn.addEventListener('click', () => {
+        console.log('clicked')
+    });
+}
