@@ -145,4 +145,11 @@
     .last-3{
         margin-top: 80px;
     }
+    .box-2>img{
+        display: inherit;
+        margin-left: 655px;
+        position: relative;
+        z-index: 4;
+        margin-top: -345px;
+    }
 }
