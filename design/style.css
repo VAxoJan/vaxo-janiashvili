@@ -296,12 +296,13 @@
     margin-top: 24px;
 }
 .last-div{
-    width: 343px;
     height: 120px;
     background-color: #13183F;
     display: flex;
     padding-top: 43px;
     justify-content: space-between;
+    width: 346px;
+    margin: auto;
 }
 .last-div>p{
     width: 89px;
