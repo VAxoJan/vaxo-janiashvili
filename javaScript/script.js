@@ -1,4 +1,5 @@
 /*
+
 window.onload = () => {
 
     const feri = document.querySelector('h1');
@@ -7,9 +8,11 @@ window.onload = () => {
 
 }
 
+
 */
 
 
+/*
 window.onload = () => {
     const batn = document.querySelector('button');
 
@@ -17,3 +20,5 @@ window.onload = () => {
         console.log('clicked')
     });
 }
+
+*/
