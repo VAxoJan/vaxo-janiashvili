@@ -10,14 +10,12 @@ body{
 .container{
     width: 327px;
     height: 844px;
-    border: 1px solid black;
     margin: 45px auto;
 }
 
 .box-1{
     width: 327px;
     height: 226px;
-    border: 1px solid green;
 }
 .box-1>p{
     color: #FFFFFF;
@@ -42,7 +40,6 @@ body{
 .box-3{
     width: 327px;
     height: 554px;
-    border: 1px solid darkorchid;
     margin-top: 64px;
 }
 .top{
@@ -72,7 +69,7 @@ body{
     width: 327px;
     height: 442px;
     background-color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 .section-1{
     width: 279px;
@@ -117,4 +114,45 @@ body{
     font-weight: 600;
     letter-spacing: 0.25px;
     padding-left: 19.41px;
+}
+.registration>button{
+    border: none;
+    width: 279px;
+    height: 56px;
+    color: #FFFFFF;
+    background-color: #38CC8B;
+    box-shadow: 0px -4px 0px 0px #00000017 inset;
+    margin-top: 16px;
+    border-radius: 5px;
+    margin-left: 24px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+.paragraf{
+    width: 327px;
+    height: 62px;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.paragraf>p{
+    width: 265px;
+    height: 42px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #A6A1CF;
+    padding-left: 24px;
+}
+.paragraf>h3{
+    color: #FF7979;
+    font-weight: 700;
+    font-size: 11px;
+    margin-top: -83px;
+    margin-left: 6px;
+}
+.our{
+    margin-top: -26px;
+    margin-left: -47px;    
 }
