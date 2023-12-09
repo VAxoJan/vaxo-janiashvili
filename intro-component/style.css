@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./images/Group\ 5\(1\).svg);
+    background-color: #FF7979;
+    font-family: 'Poppins';
+}
+.container{
+    width: 327px;
+    height: 844px;
+    border: 1px solid black;
+    margin: 45px auto;
+}
+
+.box-1{
+    width: 327px;
+    height: 226px;
+    border: 1px solid green;
+}
+.box-1>p{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.29px;
+    text-align: center;
+}
+.box-2{
+    width: 327px;
+    height: 130px;
+    margin-top: 16px;
+}
+.box-2>p{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+.box-3{
+    width: 327px;
+    height: 554px;
+    border: 1px solid darkorchid;
+    margin-top: 64px;
+}
+.top{
+    width: 327px;
+    height: 88px;
+    background-color: #5E54A4;
+    border: 1px solid red;
+    box-shadow: 0px 8px 0px 0px #00000025;
+    text-align: center;
+    border-radius: 10px;
+}
+.top>p{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.27px;
+    padding-top: 19px;
+}
+.top>small{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+}
+.registration{
+    box-shadow: 0px 8px 0px 0px #00000025;
+    margin-top: 24px;
+    width: 327px;
+    height: 442px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.section-1{
+    width: 279px;
+    height: 56px;
+    margin-top: 24px;
+    margin-left: 24px;
+    color: #2b2933;
+    font-weight: 600;
+    padding-left: 19.41px;
+    letter-spacing: 0.25px;
+    border-radius: 9px;
+}
+.section-2{
+    border-radius: 9px;
+    margin-top: 16px;       
+    width: 279px;
+    height: 56px;
+    margin-left: 24px;
+    color: #2b2933;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    padding-left: 19.41px;
+}
+.section-3{
+    border-radius: 9px;
+    margin-top: 16px;       
+    width: 279px;
+    height: 56px;
+    margin-left: 24px;
+    color: #2b2933;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    padding-left: 19.41px;
+}
+.password-1{
+    border-radius: 9px;
+    margin-top: 16px;       
+    width: 279px;
+    height: 56px;
+    margin-left: 24px;
+    color: #2b2933;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    padding-left: 19.41px;
+}
