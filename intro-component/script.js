@@ -5,10 +5,28 @@ const pass = document.querySelector('.password-1');
 
 const submit = document.querySelector('button');
 
-const validateEmail = () => {
-    console.log(email.value);
+const validateFirstName = () => {
+    const val = firstName.value;
+    if ((val.length > 3) || (val.length >= 3)) {
+        firstName.style.borderColor = 'green';
+    }
+    else {
+        firstName.style.borderColor = 'red';
+
+    }
+}
+const validateLastName = () => {
+    const val = lastName.value;
+    if ((val.length > 3) || (val.length >= 3)) {
+        lastName.style.borderColor = 'green'
+    }
+    else (
+        lastName.style.borderColor = 'red'
+
+    )
 }
 
 submit.addEventListener('click', ()  => {
-    console.log(':)');
+    validateFirstName();
+    validateLastName();
 })
