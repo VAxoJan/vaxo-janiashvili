@@ -83,4 +83,7 @@
     .section-1{
         margin-top: 27px;
     }
+    .email-alert,.email-alert-2,.looks,.passwordi{
+        padding-left: 250px;
+    }
 }  

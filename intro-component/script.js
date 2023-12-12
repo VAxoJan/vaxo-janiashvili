@@ -10,7 +10,6 @@ const validateFirstName = () => {
     const alert = document.querySelector('.email-alert');
     alert.innerText = 'First Name cannot be empty';
     alert.style.color = 'red';
-    alert.style.paddingLeft = '250px';
     if ((val.length > 3) || (val.length >= 3)) {
         alert.innerText = '';
         firstName.style.borderColor = 'green';
@@ -24,7 +23,6 @@ const validateLastName = () => {
     const alerti = document.querySelector('.email-alert-2');
     alerti.innerText = 'Last Name cannot be empty';
     alerti.style.color = 'red';
-    alerti.style.paddingLeft = '250px';
     if ((val.length > 3) || (val.length >= 3)) {
         lastName.style.borderColor = 'green'
         alerti.innerText = '';
@@ -39,7 +37,6 @@ const validateEmail = () => {
     const lok = document.querySelector('.looks');
     lok.innerText = 'Looks like this is not an email';
     lok.style.color = 'red';
-    lok.style.paddingLeft = '250px';
     if ((val.length > 3) || (val.length >= 3) && (val.includes('@'))) {
         lok.innerText = '';
         email.style.borderColor = 'green'
@@ -54,7 +51,6 @@ const validatePassword = () => {
     const loki = document.querySelector('.passwordi');
     loki.innerText = 'Password cannot be empty';
     loki.style.color = 'red';
-    loki.style.paddingLeft = '250px';
     if ((val.length > 5) || (val.length >= 3)) {
         pass.style.borderColor = 'green'
         loki.innerText = '';
