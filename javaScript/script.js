@@ -1,3 +1,11 @@
+
+
+
+/*
+console.log(10 < 4 ? 'dawere es' : 'egi raia smn');
+
+*/
+
 /*
 
 window.onload = () => {
@@ -13,6 +21,7 @@ window.onload = () => {
 
 
 /*
+
 window.onload = () => {
     const batn = document.querySelector('button');
 
