@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 *{
     margin: 0;
     box-sizing: border-box;
@@ -116,7 +118,7 @@ button{
     margin-top: -30px;
 }
 
-.icons-1>img{
+.tag-1{
     cursor: pointer;
 }
 .icons-2>img{
@@ -131,5 +133,30 @@ button{
 .rgoli{
     margin-left: -263px;
     margin-top: 12px;
+    cursor: pointer;
+}
+.am{
+    position: fixed;
+    font-family: 'Russo One';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    top: 305px;
+    right: 294px;
+}
+.tur{
+    position: fixed;
+    font-family: 'Russo One';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    top: 274px;
+    right: 294px;
+}
+.trash{
     cursor: pointer;
 }
