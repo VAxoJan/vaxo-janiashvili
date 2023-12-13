@@ -136,15 +136,15 @@ button{
     cursor: pointer;
 }
 .am{
-    position: fixed;
+    position: relative;
     font-family: 'Russo One';
     font-size: 48px;
     font-weight: 400;
     line-height: 58px;
     letter-spacing: 0em;
     color: #FFFFFF;
-    top: 305px;
-    right: 774px;
+    top: -83px;
+    right: -203px;
 }
 .tur{
     position: fixed;
@@ -154,8 +154,8 @@ button{
     line-height: 58px;
     letter-spacing: 0em;
     color: #FFFFFF;
-    top: 274px;
-    right: 774px;
+    top: 249px;
+    right: 547px;
 }
 .trash{
     cursor: pointer;
