@@ -1,33 +1,16 @@
+const add = document.querySelector('.add');
+const remove = document.querySelector('.remove');
+const ul = document.querySelector('ul');
+
+remove.addEventListener('click', () => {
+    const vaxo = document.querySelector('li');
+    vaxo.remove();
+});
 
 
-
-/*
-console.log(10 < 4 ? 'dawere es' : 'egi raia smn');
-
-*/
-
-/*
-
-window.onload = () => {
-
-    const feri = document.querySelector('h1');
-
-    console.log(feri.style.backgroundColor = 'red', feri.style.color = 'white');
-
-}
-
-
-*/
-
-
-/*
-
-window.onload = () => {
-    const batn = document.querySelector('button');
-
-    batn.addEventListener('click', () => {
-        console.log('clicked')
-    });
-}
-
-*/
+add.addEventListener('click', () => {
+    const input = document.querySelector('input');
+    const li = document.createElement('li');
+    li.innerText = input.value;
+    ul.appendChild(li);
+});
