@@ -14,3 +14,8 @@ add.addEventListener('click', () => {
     li.innerText = input.value;
     ul.appendChild(li);
 });
+
+
+/* karoche listebi unda gavaketot gverdze trash da temebi mere display none romaq add-ze klikis dros eventit unda gavxado display inherit da remove-ze dacherit 
+   iseve unda gaxdes display none
+*/
