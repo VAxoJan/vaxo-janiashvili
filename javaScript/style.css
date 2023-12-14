@@ -20,7 +20,7 @@ body{
 #add{
     width: 200px;
     height: 30px;
-    padding-left: 34px;
+    padding-left: 10px;
 }
 .add{
     width: 88px;
@@ -51,7 +51,6 @@ body{
 }
 .chek{
     position: fixed;
-    left: 816px;
     top: 450px;
     display: none;
 }

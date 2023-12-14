@@ -3,6 +3,7 @@ const remove = document.querySelector('.remove');
 const ul = document.querySelector('ul');
 const rgoli = document.querySelector('.check');
 const chek = document.querySelector('.chek');
+const ed = document.querySelector('#add');
 
 remove.addEventListener('click', () => {
     const vaxo = document.querySelector('li');
@@ -21,6 +22,7 @@ add.addEventListener('click', () => {
     console.log(remove.style.display = 'inherit');
     console.log(rgoli.style.display = 'inherit');
     console.log(chek.style.display = 'inherit');
+    console.log(ed.style.paddingLeft = '34px');
 });
 
 
