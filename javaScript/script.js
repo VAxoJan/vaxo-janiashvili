@@ -1,10 +1,15 @@
 const add = document.querySelector('.add');
 const remove = document.querySelector('.remove');
 const ul = document.querySelector('ul');
+const rgoli = document.querySelector('.check');
+const chek = document.querySelector('.chek');
 
 remove.addEventListener('click', () => {
     const vaxo = document.querySelector('li');
     vaxo.remove();
+    console.log(remove.style.display = 'none');
+    console.log(rgoli.style.display = 'none');
+    console.log(chek.style.display = 'none');
 });
 
 
@@ -13,9 +18,16 @@ add.addEventListener('click', () => {
     const li = document.createElement('li');
     li.innerText = input.value;
     ul.appendChild(li);
+    console.log(remove.style.display = 'inherit');
+    console.log(rgoli.style.display = 'inherit');
+    console.log(chek.style.display = 'inherit');
 });
 
 
-/* karoche listebi unda gavaketot gverdze trash da temebi mere display none romaq add-ze klikis dros eventit unda gavxado display inherit da remove-ze dacherit 
-   iseve unda gaxdes display none
-*/
+rgoli.addEventListener('click', () => {
+    console.log(rgoli.style.backgroundColor = '#20EEB0') (rgoli.style.borderRadius = '50%');
+});
+
+rgoli.addEventListener('mouseover', () => {
+    console.log(rgoli.style.backgroundColor = '#fff');
+});

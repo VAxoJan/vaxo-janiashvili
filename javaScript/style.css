@@ -1,16 +1,57 @@
+body{
+    background-color: #EEEEEE;
+}
 .sign-up{
     width: 300px;
-    height: 300px;
-    border: 1px solid black;
+    height: 350px;
     margin: 300px auto;
+    background-color: white;
+    border-radius: 5px;
 }
 .form-group{
-    padding-inline: 38px;
-    width: 200px;
+    display: flex;
 }
-button{
-    margin-left: 69px;
-    margin-top: 7px;
-    width: 100px;
+.remove{
     cursor: pointer;
+    margin-left: 10px;
+    display: none;
+}
+
+#add{
+    width: 200px;
+    height: 30px;
+    padding-left: 34px;
+}
+.add{
+    width: 88px;
+    height: 37px;
+    background-color: #20EEB0;
+    color: white;
+    border-radius: 2px;
+    font-size: 30px;
+    border: none;
+    margin-top: 0;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.flx{
+    display: flex;
+}
+.check{
+    display: none;
+    margin-left: 165px;
+    width: 24px;
+    height: 24px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+.main-img{
+    width: 300px;
+    border-radius: 5px;
+}
+.chek{
+    position: fixed;
+    left: 816px;
+    top: 450px;
+    display: none;
 }
