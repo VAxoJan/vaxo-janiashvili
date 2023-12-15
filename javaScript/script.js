@@ -1,4 +1,37 @@
 const add = document.querySelector('.add');
+const ul = document.querySelector('.ul');
+const li = document.querySelector('li');
+
+let counter = 0; 
+
+
+const generateListItem = val => {
+    const li = document.createElement('li');
+    li.classList.add(`li-${counter++}`);
+    li.innerHTML = `${val} <button>delete</button>`;
+    ul.appendChild(li);
+}
+
+ 
+add.addEventListener('click', () => {
+    const input = document.querySelector('input');
+    generateListItem(input.value);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+const add = document.querySelector('.add');
 const remove = document.querySelector('.remove');
 const ul = document.querySelector('ul');
 const rgoli = document.querySelector('.check');
@@ -33,3 +66,4 @@ rgoli.addEventListener('click', () => {
 rgoli.addEventListener('mouseover', () => {
     console.log(rgoli.style.backgroundColor = '#fff');
 });
+*/
