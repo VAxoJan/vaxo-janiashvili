@@ -54,3 +54,12 @@ body{
     top: 450px;
     display: none;
 }
+li{
+    display: flex;
+    margin-left: -19px;
+    gap: 224px;
+    margin-top: 10px;
+}
+.trashi{
+    cursor: pointer;
+}
