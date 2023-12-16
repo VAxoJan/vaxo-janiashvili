@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Russo+One&display=swap');
 body{
     background-color: #EEEEEE;
 }
 .sign-up{
     width: 300px;
-    height: 350px;
+    height: 385px;
     margin: 300px auto;
     background-color: white;
     border-radius: 5px;
@@ -62,4 +63,14 @@ li{
 }
 .trashi{
     cursor: pointer;
+}
+.todo{
+    font-family: 'Inter';
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0em;
+    color: #007FDB;
+    position: absolute;
+    left: 116px;
 }
