@@ -13,7 +13,6 @@ body{
 }
 .remove{
     cursor: pointer;
-    margin-left: 10px;
     display: none;
 }
 
@@ -56,9 +55,9 @@ body{
 }
 li{
     display: flex;
-    margin-left: -19px;
-    gap: 224px;
     margin-top: 10px;
+    justify-content: space-between;
+    width: 244px;
 }
 .trashi{
     cursor: pointer;

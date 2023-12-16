@@ -21,5 +21,3 @@ add.addEventListener('click', () => {
     const input = document.querySelector('input');
     generateListItem(input.value);
 });
-
-//dddddd
