@@ -20,4 +20,6 @@ ul.addEventListener('click', (event) => {
 add.addEventListener('click', () => {
     const input = document.querySelector('input');
     generateListItem(input.value);
+    const image = document.createElement('.img');
+    
 });

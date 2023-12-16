@@ -35,6 +35,7 @@ body{
 }
 .flx{
     display: flex;
+    margin-left: -21px;
 }
 .check{
     display: none;
@@ -57,7 +58,7 @@ li{
     display: flex;
     margin-top: 10px;
     justify-content: space-between;
-    width: 244px;
+    width: 267px;
 }
 .trashi{
     cursor: pointer;
