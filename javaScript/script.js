@@ -1,13 +1,18 @@
 const add = document.querySelector('.add');
 const ul = document.querySelector('.ul');
+const check = document.querySelector('.src');
+const rmv = document.querySelector('.li-0');
 
 let counter = 0;
+
 
 const generateListItem = val => {
     const li = document.createElement('li');
     li.classList.add(`li-${counter++}`);
     li.innerHTML = `${val}  <img class="trashi" src="./images/akar-icons_trash-can.svg" alt="">`;
     ul.appendChild(li);
+    document.getElementById("src").style.display = "inherit";
+
 }
 
 ul.addEventListener('click', (event) => {
@@ -21,5 +26,12 @@ add.addEventListener('click', () => {
     const input = document.querySelector('input');
     generateListItem(input.value);
     const image = document.createElement('.img');
-    
+});
+
+if (check === 0) {
+    document.getElementById("src").style.display = "inherit";
+};
+
+rmv.addEventListener('click', () => {
+    document.getElementById("src").style.display = "none";  
 });

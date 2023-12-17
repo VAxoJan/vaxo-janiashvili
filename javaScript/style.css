@@ -11,6 +11,7 @@ body{
 }
 .form-group{
     display: flex;
+    position: relative;
 }
 .remove{
     cursor: pointer;
@@ -20,7 +21,7 @@ body{
 #add{
     width: 200px;
     height: 30px;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 .add{
     width: 88px;
@@ -73,4 +74,10 @@ li{
     color: #007FDB;
     position: absolute;
     left: 116px;
+}
+#src{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    display: none;
 }
