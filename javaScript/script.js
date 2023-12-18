@@ -1,7 +1,7 @@
 const add = document.querySelector('.add');
 const ul = document.querySelector('.ul');
-const check = document.querySelector('.src');
-const rmv = document.querySelector('.li-0');
+const check = document.querySelector('#src');
+const rmv = document.querySelector('.trashi');
 
 let counter = 0;
 
@@ -26,12 +26,11 @@ add.addEventListener('click', () => {
     const input = document.querySelector('input');
     generateListItem(input.value);
     const image = document.createElement('.img');
+    check.style.display = "flex";
 });
 
-if (check === 0) {
-    document.getElementById("src").style.display = "inherit";
-};
+
 
 rmv.addEventListener('click', () => {
-    document.getElementById("src").style.display = "none";  
+    check.style.display = 'none';
 });
