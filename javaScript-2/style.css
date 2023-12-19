@@ -1,18 +1,52 @@
 *{
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
-header{
-    width: 1576px;
+.head{
     display: flex;
-    margin: 0 auto;
-    border: 1px solid red;
-    margin-top: 50px;
+    margin-left: 19px;
+    margin-top: 30px;
+    color: black;
+    font-weight: 700;
 }
-.first{
+th{
     display: flex;
-    width: 800px;
+    font-weight: 400;
     border: 1px solid black;
-    width: 1576px;
-    margin: auto;
+    width: 1419px;
+    gap: 55px;
+}
+.input{
+    width: 432px;
+    height: 50px;
+}
+.amount{
+    display: flex;
+    align-items: center;
+}
+.desc{
+    display: flex;
+    align-items: center;
+}
+.date{
+    display: flex;
+    align-items: center;
+}
+.am{
+    margin-left: -128px;
+}
+.da{
+    margin-left: 140px;
+}
+.de{
+    margin-left: -105px;
+}
+.im{
+    margin-left: 51px;
+}
+.im{
+    margin-left: 402px;
+}
+.ti{
+    margin-left: -6px;
 }
