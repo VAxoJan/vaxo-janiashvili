@@ -5,15 +5,14 @@ const rmv = document.querySelector('.trashi');
 
 let counter = 0;
 
-
 const generateListItem = val => {
     const li = document.createElement('li');
     li.classList.add(`li-${counter++}`);
     li.innerHTML = `${val}  <img class="trashi" src="./images/akar-icons_trash-can.svg" alt="">`;
     ul.appendChild(li);
-    document.getElementById("src").style.display = "inherit";
-
+    check.style.display = "inherit";
 }
+
 
 ul.addEventListener('click', (event) => {
     if (event.target.classList.contains('trashi')) {
@@ -25,12 +24,8 @@ ul.addEventListener('click', (event) => {
 add.addEventListener('click', () => {
     const input = document.querySelector('input');
     generateListItem(input.value);
-    const image = document.createElement('.img');
-    check.style.display = "flex";
 });
 
-
-
 rmv.addEventListener('click', () => {
-    check.style.display = 'none';
+    check.remove();
 });

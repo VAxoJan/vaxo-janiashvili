@@ -8,6 +8,7 @@ body{
     margin: 300px auto;
     background-color: white;
     border-radius: 5px;
+    overflow: scroll;
 }
 .form-group{
     display: flex;
@@ -73,7 +74,6 @@ li{
     letter-spacing: 0em;
     color: #007FDB;
     position: absolute;
-    left: 116px;
 }
 #src{
     position: absolute;
