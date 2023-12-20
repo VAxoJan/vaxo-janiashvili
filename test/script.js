@@ -1,4 +1,4 @@
-const user = 20 < 10;
+const user = true;
 
 const promise = new Promise ((resolve, reject) => {
     if (user) {
@@ -12,15 +12,9 @@ const promise = new Promise ((resolve, reject) => {
 
 promise.then((mess) => {
     console.log(mess);
-}).catch((errorrrr) => {
-    console.log(errorrrr);
-})
-
-
-
-
-
-
+}).catch((err) => {
+    console.log(err);
+});
 
 
 
