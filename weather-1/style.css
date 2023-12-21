@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./images/image-1.jpeg);
+    background-repeat: no-repeat;
+}
+.main{
+    width: 1182px;
+    height: 606px;
+    border: 2px solid red;
+    margin: 37px auto;
+}
