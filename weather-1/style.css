@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto&family=Russo+One&display=swap');
 *{
     margin: 0;
     box-sizing: border-box;
@@ -9,6 +10,43 @@ body{
 .main{
     width: 1182px;
     height: 606px;
-    border: 2px solid red;
+    border: 1px solid #fff;
     margin: 37px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left-box{
+    width: 400px;
+    height: 606px;
+    border-left: 5px solid rgba(255, 255, 255, 0.14); background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(5px); 
+    display: flex;
+    justify-content: center;
+}
+.main>img{
+    width: 89.90px;
+    height: 47px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    width: 371px;
+    height: 50px;
+    flex-shrink: 0;
+    border-bottom: 1px solid #FFF;
+}
+.first>input{
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.first>img{
+    width: 28px;
+    height: 47px;
+    flex-shrink: 0;
 }
