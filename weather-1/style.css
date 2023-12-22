@@ -65,7 +65,6 @@ body{
 .temp-section{
     width: 354px;
     height: 290px;
-    border: 1px solid white;
     margin-top: 52px;
     margin-left: 30px;
     display: inline-flex;
@@ -180,4 +179,13 @@ body{
     line-height: normal;
     margin-top: 41px;
     margin-left: 30px;
+}
+.hourly{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    gap: 30px 100px;
+    padding-left: 30px;
+    margin-top: 62px;
 }
