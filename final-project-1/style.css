@@ -8,7 +8,7 @@ body{
     display: flex;
 }
 .left-box {
-    width: 121px;
+    width: 128px;
     height: 870px;
     background: #0000000D;
     border-radius: 34px;
@@ -22,6 +22,7 @@ body{
     margin-top: 17px;
     margin-left: 30px;
     border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.04);
 }
 .box-1{
     width: 520px;
@@ -67,4 +68,59 @@ body{
     height: 250px;
     margin-top: 20px;
 
+}
+.fix-box{
+    width: 68%;
+    height: 100%;
+    padding-top: 50px;
+    margin-left: 17px;
+}
+.top{
+    display: block;
+    height: 100px;
+}
+.bottom{
+    margin-top: 300px;
+    align-items: center;
+    margin-top: 480px;
+}
+.top>img{
+    margin-top: 45px;
+}
+.top,.bottom>img{
+    cursor: pointer;
+}
+#img-1{
+    margin-top: 45px;
+    padding: 0;
+    margin-left: -20px;
+}
+#img-2{
+    margin-top: 45px;
+}
+.weather{
+    width: 450px;
+    height: 430px;
+    border: 1px solid red;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(14px);
+}
+.box-1-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding-inline: 29px;
+}
+.box-1-middle{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-left: 35px;
+}
+.bit-1{
+    width: 90%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.5);
 }
