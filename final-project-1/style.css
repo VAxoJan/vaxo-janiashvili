@@ -160,3 +160,6 @@ body{
     padding-inline: 40px;
     border-radius: 18px;
 }
+.box-4-photos>img{
+    width: 181px;
+}
