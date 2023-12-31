@@ -124,3 +124,39 @@ body{
     height: 1px;
     background: rgba(0, 0, 0, 0.5);
 }
+.prognoz{
+    width: 475px;
+    height: 80%;
+    margin: 20px auto;
+    border: 1px solid greenyellow;
+}
+.section-1-box-2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-inline: 30px;
+}
+.section-2-box-2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-inline: 30px;
+}
+.section-3-box-2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-inline: 30px;
+}
+.section-4-box-2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-inline: 30px;
+}
+.section-5-box-2{
+    background-color: rgba(110, 105, 105, 0.5);
+    gap: 30px;
+    padding-inline: 40px;
+    border-radius: 18px;
+}
