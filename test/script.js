@@ -26,13 +26,6 @@ promise.then((mess) => {
 
 
 
-
-
-
-
-
-
-
 // // Parsing JSON
 // var jsonString = '{"name": "John", "age": 30, "city": "New York"}';
 // var jsonObj = JSON.parse(jsonString);

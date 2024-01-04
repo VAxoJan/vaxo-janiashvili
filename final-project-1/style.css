@@ -57,7 +57,7 @@ body{
 .box-3{
     width: 100%;
     height: 540px;
-    border: 3px solid red;
+    border: 1px solid red;
     border-radius: 34px;
 }
 .box-4{
@@ -162,4 +162,36 @@ body{
 }
 .box-4-photos>img{
     width: 181px;
+}
+.phase{
+    width: 90%;
+    height: 317px;
+    margin: 22px auto;
+    border: 1px solid black;
+    display: flex;
+    gap: 22px;
+}
+.section-1{
+    width: 250px;
+    height: 317px;
+    border: 1px solid black;
+}
+.section-1>img{
+    width: 70%;
+}
+.section-2{
+    width: 250px;
+    height: 317px;
+    border: 1px solid green;
+}
+.section-2>img{
+    width: 100%;
+}
+.section-3{
+    width: 250px;
+}
+.suns{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
 }
