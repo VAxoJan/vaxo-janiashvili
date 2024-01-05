@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 body{
+    background-color: rgba(255, 255, 255, 0.26);
     display: flex;
 }
 .left-box {
@@ -43,4 +44,23 @@ body{
 }
 #img-2{
     margin-top: 45px;
+}
+#into{
+    width: 630px;
+    height: 216px;
+    border: 1px solid red;
+    margin: 50px auto;
+    font-size: 60px;
+    font-weight: 300;
+    display: grid;
+    color: rgba(46, 56, 107, 1), rgba(167, 167, 167, 1);
+}
+#into>small{
+    padding-left: 70px;
+}
+.zodiaco{
+    width: 90%;
+    height: 400px;
+    border: 1px solid black;
+    margin: 50px auto;
 }
