@@ -64,3 +64,9 @@ body{
     border: 1px solid black;
     margin: 50px auto;
 }
+.top-1-zod{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 113px;
+}
