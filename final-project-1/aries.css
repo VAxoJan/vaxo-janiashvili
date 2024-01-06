@@ -7,7 +7,7 @@ body{
 }
 .main{
     width: 49%;
-    height: 653px;
+    height: 683px;
     border: 1px solid black;
     margin: 100px auto;
 }
@@ -70,18 +70,44 @@ body{
 .cagareli{
     margin-top: 30px;
     width: 100%;
-    height: 375px;
+    height: 383px;
     border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
 .cagareli-p{
-    border: 4px solid salmon;
+    border: 1px solid salmon;
     width: 500px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
 }
 .cagareli-vid{
     border: 4px solid green;
     width: 445px;
     height: 266px;
     margin: auto
+}
+#secondBtn{
+    margin-top: 45px;
+}
+.bx-1{
+    width: 170px;
+    height: 180px;
+    border: 1px solid black;
+}
+.bx-2{
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+}
+.bx-3{
+    width: 170px;
+    height: 191px;
+    border: 1px solid black;
+}
+.bx-4{
+    width: 184px;
+    height: 191px;
+    border: 1px solid black;
 }
