@@ -19,7 +19,7 @@ body{
 }
 .main{
     width: 525px;
-    margin-top: 17px;
+    margin-top: -33px;
     margin-left: 30px;
     backdrop-filter: blur(14px);
 }
@@ -58,11 +58,11 @@ body{
     border-radius: 34px;
     background: rgba(0, 0, 0, 0.08);
     backdrop-filter: blur(14px);
+    display: block;
 }
 .box-4{
     width: 100%;
     margin-right: 24px;
-    border: 2px solid blue;
     border-radius: 34px;
     height: 242px;
     margin-top: 20px;
@@ -102,10 +102,10 @@ body{
 .weather{
     width: 450px;
     height: 430px;
-    border: 1px solid red;
     margin: 50px auto;
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(14px);
+    padding-top: 18px;
 }
 .box-1-top{
     display: flex;
@@ -129,7 +129,6 @@ body{
     width: 475px;
     height: 80%;
     margin: 20px auto;
-    border: 1px solid greenyellow;
 }
 .section-1-box-2{
     display: flex;
@@ -177,7 +176,6 @@ body{
     width: 90%;
     height: 317px;
     margin: 22px auto;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     gap: 22px;
@@ -206,7 +204,24 @@ body{
     justify-content: space-between;
     padding-inline: 20px;
 }
-.section-1{
+.section-1,.section-2,.section-3{
     backdrop-filter: blur(30px);
     background-color: rgba(255, 255, 255, 0.3);
+}
+.box-1-data{
+    margin-top: 2px;
+}
+.bot-sect{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 119px;
+    border-radius: 15px;
+    border: 1px solid black;
+    align-items: center;
 }
