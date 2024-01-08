@@ -54,7 +54,6 @@ body{
 .box-3{
     width: 100%;
     height: 540px;
-    border: 1px solid red;
     border-radius: 34px;
     background: rgba(0, 0, 0, 0.08);
     backdrop-filter: blur(14px);
@@ -183,7 +182,6 @@ body{
 .section-1{
     width: 250px;
     height: 317px;
-    border: 1px solid black;
 }
 .section-1>img{
     width: 70%;
@@ -191,7 +189,6 @@ body{
 .section-2{
     width: 250px;
     height: 317px;
-    border: 1px solid green;
 }
 .section-2>img{
     width: 100%;
@@ -215,13 +212,36 @@ body{
     width: 90%;
     margin: 0 auto;
     border: 1px solid red;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 .one{
     display: flex;
     justify-content: space-between;
-    width: 300px;
+    width: 260px;
     height: 119px;
     border-radius: 15px;
     border: 1px solid black;
     align-items: center;
+    padding-inline: 6px;
+    margin: 0 auto;
+    backdrop-filter: blur(30px);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#procent{
+    margin-top: 21px;
+}
+.two{
+    width: 250px;
+    height: 119px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-inline: 2px;
+    backdrop-filter: blur(30px);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#km{
+    margin-top: 21px;
 }
